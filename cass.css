@@ -19,7 +19,7 @@ body{
     background-size: cover;
 }
 .container{
-    padding: 10px 10%;
+    padding: 5px 5%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 nav{
@@ -81,10 +81,10 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col2{
-    flex-basis: 35%;
+    flex-basis: 25%;
 }
 .about-col2 img{
-    width: 100%;
+    width: 90%;
     border-radius: 15px;
 }
 .about-col1{
@@ -108,7 +108,7 @@ nav ul li a:hover::after{
 }
 .list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(500px,4fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
